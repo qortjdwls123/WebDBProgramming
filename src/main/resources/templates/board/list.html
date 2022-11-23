@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+  <html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout1}">
+<!-- 사용자 CSS 추가 -->
+<th:block layout:fragment="css">
+  <style>
+            .newPostBtn {
+                float: right;
+                margin: 3rem;
+            }
+  </style>
+</th:block>
+
+
+  <div layout:fragment="content">
+    <button class="newPostBtn" type="button" onclick="location.href='/board/newBoard' ">글쓰기</button>
+
+    <section class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!--image-->
+              <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+              <!--details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- name-->
+                  <h5 class="fw-bolder">웹툰 1</h5>
+                  조회수, 추천수, 별점 등 추가예정
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!--image-->
+              <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+              <!--details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- name-->
+                  <h5 class="fw-bolder">웹툰 2</h5>
+                  조회수, 추천수, 별점 등 추가예정
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!--image-->
+              <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+              <!--details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- name-->
+                  <h5 class="fw-bolder">웹툰 3</h5>
+                  조회수, 추천수, 별점 등 추가예정
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!--image-->
+              <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+              <!--details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- name-->
+                  <h5 class="fw-bolder">웹툰 4</h5>
+                  조회수, 추천수, 별점 등 추가예정
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!--image-->
+              <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+              <!--details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- name-->
+                  <h5 class="fw-bolder">웹툰 5</h5>
+                  조회수, 추천수, 별점 등 추가예정
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!--image-->
+              <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+              <!--details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- name-->
+                  <h5 class="fw-bolder">웹툰 6</h5>
+                  조회수, 추천수, 별점 등 추가예정
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!--image-->
+              <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+              <!--details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- name-->
+                  <h5 class="fw-bolder">웹툰 7</h5>
+                  조회수, 추천수, 별점 등 추가예정
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!--image-->
+              <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+              <!--details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- name-->
+                  <h5 class="fw-bolder">웹툰 8</h5>
+                  조회수, 추천수, 별점 등 추가예정
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </div>
+</html>
